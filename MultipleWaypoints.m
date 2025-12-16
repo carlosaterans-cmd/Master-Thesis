@@ -1,4 +1,4 @@
-FLCs = load('FLCs_Safaee.mat');
+FLCs = load('FLCsInit.mat');
 
 Waypoints.time = [0];
 % Input Waypoint values here. One waypoint per row as [x y z] vector
@@ -6,7 +6,7 @@ Waypoints.signals.values = [5 0 -15; 5 5 -20; 10 10 -20];
 N = size(Waypoints.signals.values, 1);
 Waypoints.signals.dimensions = [N, 3];
 
-t = sim('SafaeeModel');
+t = sim('FullModel.slx');
 
 x = Position.signals(1).values;
 y = Position.signals(2).values;
@@ -84,4 +84,5 @@ ylabel('y, m')
 zlabel('h, m')
 grid on
 legend('Trajectory','Waypoints')
+
 hold off
