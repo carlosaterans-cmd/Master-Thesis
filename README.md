@@ -58,7 +58,11 @@ Visual Evidence:
 ⚙️ **Running the Simulation**
 1. Prerequisites: MATLAB (version R2021.a or newer), Simulink, Fuzzy Logic Toolbox
 2. Clone Repository
-3. Open the project: open the primary Simulink file: [`FullModel.slx`]
+3. Open the project: open the primary Simulink file: [`FullModel.slx`](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/FullModel.slx)
+4. Initialize the FIS and Waypoints: run [`InitializeModel.m`](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/InitializeModel.m)
+5. Run the Simulink model.
+
+   **Note:** For 
 
 📞 **Contact**
 For further inquiries regarding the thesis methodology or implementation details, please refer to my main GitHub profile or connect on LinkedIn.
