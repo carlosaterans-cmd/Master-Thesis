@@ -52,5 +52,13 @@ Optimization: Employed three optimization algorithms ([Genetic Algorithm](https:
 Visual Evidence:
 
 ![3D Trajectory Plot](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/Images/3DTrajectory.png "3D Trajectory")
-![Position Response]
-![Attitude Response]
+![Position Response](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/Images/Position_best_PSO.png "Position Response")
+![Attitude Response](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/Images/Attitude_best_PSO.png "Attitude Response")
+
+⚙️ **Running the Simulation**
+1. Prerequisites: MATLAB (version R2021.a or newer), Simulink, Fuzzy Logic Toolbox
+2. Clone Repository
+3. Open the project: open the primary Simulink file: [`FullModel.slx`]
+
+📞 **Contact**
+For further inquiries regarding the thesis methodology or implementation details, please refer to my main GitHub profile or connect on LinkedIn.
