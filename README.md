@@ -42,7 +42,7 @@ Optimization: Employed three optimization algorithms ([Genetic Algorithm](https:
    
    where $t_{r,i}$ is the rise time in the i-direction, and $M_{p,i}$ is the maximum overshoot in the i-direction
 
-   📈 **Results & Performance Highlights**
+📈 **Results & Performance Highlights**
 
 | Metric | Before Optimization | After Optimization |
 |--------|---------------------|--------------------|
