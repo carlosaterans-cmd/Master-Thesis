@@ -70,7 +70,7 @@ Visual Evidence:
 
    6.1. Connect the `From Workspace` Block named Waypoints to the *Waypoints* input of the `WaypointFollow` Subsystem, and the *States* output of the `Quadcopter` Subsystem to the *States* input of `WaypointFollow`.
    
-   6.2. Connect `WaypointFollow`s *Desired* to the same name in the `Preprocessing` Subsystem
+   6.2. Connect `WaypointFollow`'s *Desired* to the same name in the `Preprocessing` Subsystem
    
 7. Run the simulation: Run [`MultipleWaypoints.m`](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/MultipleWaypoints.m)
 
