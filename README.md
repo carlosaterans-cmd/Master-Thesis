@@ -64,7 +64,11 @@ Visual Evidence:
 
    **Note:** For multiple Waypoints, follow these steps after 3 above:
 4. Define your waypoints: In the file `MultipleWaypoints.m`, define your waypoints in a matrix, whose rows represent each waypoint and the columns represent the x, y, and z coordinates
-5. Run the simulation: Run [`MultipleWaypoints.m`]
+5. Uncomment the `WaypointFollow` Block
+6. Connect the `WaypointFollow` Block:
+   6.1. Connect the `From Workspace` Block named Waypoints to the *Waypoints* input of the `WaypointFollow` Subsystem, and the *States* output of the `Quadcopter` Subsystem to the *States* input of `WaypointFollow`.
+   6.2. Connect `WaypointFollow`s *Desired* to the same name in the `Preprocessing` Subsystem
+7. Run the simulation: Run [`MultipleWaypoints.m`](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/MultipleWaypoints.m)
 
 📞 **Contact**
 For further inquiries regarding the thesis methodology or implementation details, please refer to my main GitHub profile or connect on LinkedIn.
