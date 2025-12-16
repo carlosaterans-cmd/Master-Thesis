@@ -50,3 +50,7 @@ Optimization: Employed three optimization algorithms ([Genetic Algorithm](https:
 | Rise Time (seconds) | 2.57 | 2.51 |
 
 Visual Evidence:
+
+![3D Trajectory Plot](https://github.com/carlosaterans-cmd/Master-Thesis/blob/main/Images/3DTrajectory.png "3D Trajectory")
+![Position Response]
+![Attitude Response]
